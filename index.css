@@ -23,7 +23,7 @@ body {
   letter-spacing: -0.5px;
 }
 .container {
-  width: 1170px;
+  max-width: 1170px;
   padding: 0 10px;
   margin: 0 auto;
 }
@@ -89,7 +89,7 @@ body {
   text-align: center;
 }
 .header__wrapper {
-  width: 660px;
+  max-width: 660px;
   padding: 0 15px;
 }
 .header__title {
@@ -149,7 +149,7 @@ em {
 }
 .project__image {
   overflow: scroll;
-  height: 300px;
+  max-height: 300px;
   width: 100%;
   margin-bottom: 20px;
 }
@@ -189,4 +189,12 @@ footer {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+}
+@media (max-width: 576px) {
+  .header__title {
+    font-size: 22px;
+  }
+  .header__title strong {
+    font-size: 30px;
+  }
 }
