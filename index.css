@@ -275,6 +275,10 @@ footer {
   border-radius: 50%;
 }
 @media (max-width: 576px) {
+  .header {
+    background-image: none;
+    min-height: unset;
+  }
   .header__title {
     font-size: 22px;
   }
@@ -284,8 +288,25 @@ footer {
   .nav-row {
     justify-content: space-between;
   }
+  .section {
+    padding: 26px 0;
+  }
+  .title-1 {
+    margin-bottom: 26px;
+    font-size: 32px;
+  }
+  .title-2 {
+    margin: 12px;
+    font-size: 30px;
+  }
   .darkmode-button {
     margin-left: auto;
     order: 0;
+  }
+  .content-list__text {
+    margin-bottom: 6px;
+  }
+  footer {
+    padding: 20px 0;
   }
 }
