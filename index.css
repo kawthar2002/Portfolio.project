@@ -307,6 +307,16 @@ footer {
     margin-bottom: 6px;
     font-size: 22px;
   }
+  .projects {
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  .project {
+    padding: 10px;
+  }
+  .project__image {
+    max-height: 100px;
+  }
   footer {
     padding: 20px 0;
   }
