@@ -317,6 +317,9 @@ footer {
   .project__image {
     max-height: 100px;
   }
+  .project__title {
+    font-size: 18px;
+  }
   footer {
     padding: 20px 0;
   }
