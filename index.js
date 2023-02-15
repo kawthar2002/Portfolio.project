@@ -6,8 +6,12 @@ buttonDarkMode.onclick = () => {
 };
 
 window.addEventListener('scroll', () => {
-    const header = document.querySelector('.header__title')
-    let offSetY = window.scrollY;
-    header.style.transform = `translateY(${offSetY * 0.3}px)`;
-    
-  });
+  const header = document.querySelector('.header__wrapper');
+  let offSetY = window.scrollY;
+  let headerPosition = `translateY(${offSetY * 0.4}px)`;
+  console.log(offSetY);
+  header.style.transform = headerPosition;
+  if (offSetY >= 650) {
+    header.style.opacity = 0;
+  } else header.style.opacity = 1;
+});
