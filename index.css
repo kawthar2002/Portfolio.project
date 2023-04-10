@@ -345,6 +345,7 @@ footer {
 .contacts__link:hover {
   border: 2px solid var(--accent);
 }
+
 @media (max-width: 576px) {
   .header {
     background-image: none;
