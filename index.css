@@ -279,6 +279,12 @@ em {
   line-height: 130%;
   text-align: center;
 }
+.project__link {
+  transition: color 0.3s;
+}
+.project__link:hover {
+  color: var(--accent);
+}
 .content-list {
   color: var(--content-color);
   display: flex;
