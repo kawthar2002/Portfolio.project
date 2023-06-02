@@ -232,7 +232,6 @@ em {
   padding: 70px 0;
 }
 .title-1 {
-  margin-bottom: 60px;
   font-weight: 700;
   font-size: 60px;
   line-height: 130%;
@@ -245,6 +244,7 @@ em {
   column-gap: 30px;
   row-gap: 30px;
   transition: all 0.5s ease;
+  margin-top: 60px;
 }
 .project {
   flex: 30%;
@@ -289,8 +289,7 @@ em {
 .content-list {
   color: var(--content-color);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   overflow: hidden;
 }
@@ -305,8 +304,6 @@ em {
   font-size: 32px;
   line-height: 150%;
   margin-bottom: 30px;
-  animation-name: slidein;
-  animation-duration: 3s;
 }
 .contacts__img {
   display: flex;
@@ -323,6 +320,13 @@ em {
 }
 .contacts__image:hover {
   transform: scale3d(2, 2, 2);
+}
+.skills-list {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  justify-content: center;
 }
 footer {
   padding: 60px 0 50px;
@@ -371,11 +375,9 @@ footer {
   .nav-row {
     justify-content: space-between;
   }
-  .skills {
-    display: flex;
+  .skills-list {
     align-items: center;
     justify-content: center;
-    gap: 30px;
     flex-wrap: wrap;
   }
   .section {
@@ -396,7 +398,6 @@ footer {
   .content-list__text {
     margin-bottom: 6px;
     font-size: 22px;
-    animation: none;
   }
   .projects {
     column-gap: 10px;
